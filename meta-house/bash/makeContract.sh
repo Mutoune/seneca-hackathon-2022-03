@@ -1,0 +1,1 @@
+solc @openzeppelin/=/Users/minghan/node_modules/@openzeppelin/ contract/MetaHouse.sol --bin --abi --overwrite -o contract/ | web3j generate solidity -b contract/MetaHouse.bin -a contract/MetaHouse.abi -o ./src/main/java -p cloud.minghan.metahouse.contract
